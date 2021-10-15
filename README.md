@@ -36,13 +36,22 @@ The system must provide accessibility requirements and provide good usability. T
 Análise de Tarefas: ANTES
 
 As tarefas são atualmente realizadas basicamente da seguinte forma:
+
 •	O Fiscal imprime planilha dos itens a serem verificados (em torno de 400 itens);
+
 •	Existem itens que são verificados em campo e itens que exigem a análise de documentos;
+
 •	Para os itens de campo é necessário solicitar a autorização e acompanhamento para acesso ao local
+
 •	Para os itens de verificação de documentos é necessário solicitar os documentos ao responsável;
-•	Para cada item verificado o fiscal preenche de forma manual a planilha impressa com:        C-CONFORME, NC-NÃO CONFORME, NA-NÃO APLICA.
+
+•	Para cada item verificado o fiscal preenche de forma manual a planilha impressa com:        
+C-CONFORME, NC-NÃO CONFORME, NA-NÃO APLICA.
+
 •	Após a verificação de todos itens por todos os fiscais, esses dados são compilados em um documento impresso (REQUISITOS) de forma manual, onde o fiscal insere o status do item (C, NC ou NA), data e assinatura.
+
 •	Com o documento preenchido, apenas um dos fiscais transfere todos os dados para uma planilha do Excel (esta planilha foi criada pelos próprios fiscais) que calcula o IDO de acordo com a métrica estabelecida no contrato.
+
 •	Com a geração do IDO é gerado um documento oficial (RELATÓRIO DE AVALIAÇÃO DE DESEMPENHO - RAD) com todos os dados da Fiscalização realizada, que recebe vistos de todos os fiscais em todas as folhas, com exceção da última folha que recebe o carimbo e assinatura dos fiscais.
 
 ![image](https://user-images.githubusercontent.com/92594329/137530224-d3bf2000-3a94-4638-94d6-3984120035bf.png)
