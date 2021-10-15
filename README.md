@@ -19,14 +19,23 @@ O processo de fiscalização atual é feito de forma manual, e gera diversos doc
 1) Requirements:
  
 O Sistema deve ter dois tipos de usuários: Fiscais e Coordenador
+
 O Coordenador é responsável por finalizar o processo de fiscalização gerando o RAD (Relatório de Avaliação de Desempenho).
+
 Os Fiscais são usuários que acessam o sistema para classificar seus itens de fiscalização como: C, NC ou NA.
+
 O Coordenador também é Fiscal.
+
 O Coordenador terá acesso a todos os itens.
+
 Os Fiscais terão acesso apenas aos seus próprios itens.
+
 O registro do Coordenador e dos Fiscais inclui nome no formato: primeironome_ultimonome.
+
 Serão implementadas telas apenas de 05 itens de cada Fiscal por questões de simplificação (a quantidade real de itens é muito grande - mais de 400 itens).
+
 Quando todos os Fiscais classificarem seus itens, será habilitado o botão "GERAR RAD" para que o Coordenador possa gerar o Relatório com o valor de IDO calculado pelo Sistema.
+
 The system must provide accessibility requirements and provide good usability. The system must be responsive.
 
 
