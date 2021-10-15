@@ -20,14 +20,13 @@ O processo de fiscalização atual é feito de forma manual, e gera diversos doc
  
 O Sistema deve ter dois tipos de usuários: Fiscais e Coordenador
 O Coordenador é responsável por finalizar o processo de fiscalização gerando o RAD (Relatório de Avaliação de Desempenho).
-Customers are users who access the system to buy products/services.
-The admin record includes, at least: name, id, phone, email.
-Each customer's record includes, at least: name, id, address, phone, email
-Product/services records include, at least: name, id, photo, description, price, quantity (in stock), quantity sold.
-Your store may sell products, services or both (you decide)
-Selling Products (or services): Products are selected, their quantity chosen, and are included in a cart. Products are purchased using a credit card number (any number is accepted by the system). The quantity of product sold is subtracted from the quantity in stock and added to the quantity sold. Carts are emptied only on payment or by customers.
-Product/Service Management: Administrators can create/update/read/delete (crud) new products and services. For example, they can change the stock quantity.
-Your functionality: Create a functionality that is specific to your application. It does not have to be something complicated. For instance, if you are selling cars, you may allow users to use an accelerator to hear how each car engine roars up and down.   
+Os Fiscais são usuários que acessam o sistema para classificar seus itens de fiscalização como: C, NC ou NA.
+O Coordenador também é Fiscal.
+O Coordenador terá acesso a todos os itens.
+Os Fiscais terão acesso apenas aos seus próprios itens.
+O registro do Coordenador e dos Fiscais inclui nome no formato: primeironome_ultimonome.
+Serão implementadas telas apenas de 05 itens de cada Fiscal por questões de simplificação (a quantidade real de itens é muito grande - mais de 400 itens).
+Quando todos os Fiscais classificarem seus itens, será habilitado o botão "GERAR RAD" para que o Coordenador possa gerar o Relatório com o valor de IDO calculado pelo Sistema.
 The system must provide accessibility requirements and provide good usability. The system must be responsive.
 
 
@@ -41,16 +40,16 @@ As tarefas são atualmente realizadas basicamente da seguinte forma:
 
 •	Existem itens que são verificados em campo e itens que exigem a análise de documentos;
 
-•	Para os itens de campo é necessário solicitar a autorização e acompanhamento para acesso ao local
+•	Para os itens de campo é necessário solicitar a autorização e acompanhamento para acesso ao local;
 
 •	Para os itens de verificação de documentos é necessário solicitar os documentos ao responsável;
 
 •	Para cada item verificado o fiscal preenche de forma manual a planilha impressa com:        
-C-CONFORME, NC-NÃO CONFORME, NA-NÃO APLICA.
+C-CONFORME, NC-NÃO CONFORME, NA-NÃO APLICA;
 
-•	Após a verificação de todos itens por todos os fiscais, esses dados são compilados em um documento impresso (REQUISITOS) de forma manual, onde o fiscal insere o status do item (C, NC ou NA), data e assinatura.
+•	Após a verificação de todos itens por todos os fiscais, esses dados são compilados em um documento impresso (REQUISITOS) de forma manual, onde o fiscal insere o status do item (C, NC ou NA), data e assinatura;
 
-•	Com o documento preenchido, apenas um dos fiscais transfere todos os dados para uma planilha do Excel (esta planilha foi criada pelos próprios fiscais) que calcula o IDO de acordo com a métrica estabelecida no contrato.
+•	Com o documento preenchido, apenas um dos fiscais transfere todos os dados para uma planilha do Excel (esta planilha foi criada pelos próprios fiscais) que calcula o IDO de acordo com a métrica estabelecida no contrato;
 
 •	Com a geração do IDO é gerado um documento oficial (RELATÓRIO DE AVALIAÇÃO DE DESEMPENHO - RAD) com todos os dados da Fiscalização realizada, que recebe vistos de todos os fiscais em todas as folhas, com exceção da última folha que recebe o carimbo e assinatura dos fiscais.
 
