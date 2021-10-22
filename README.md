@@ -32,7 +32,7 @@ Os Fiscais terão acesso apenas aos seus próprios itens.
 
 O registro do Coordenador e dos Fiscais inclui nome no formato: primeironome_ultimonome.
 
-Serão implementadas telas apenas de 05 itens de cada Fiscal por questões de simplificação (a quantidade real de itens é muito grande - mais de 400 itens).
+Serão implementadas telas apenas de 05 itens de cada Fiscal por questões de simplificação (a quantidade real de itens é muito grande - mais de 1000 itens).
 
 Quando todos os Fiscais classificarem seus itens, será habilitado o botão "GERAR RAD" para que o Coordenador possa gerar o Relatório com o valor de IDO calculado pelo Sistema.
 
