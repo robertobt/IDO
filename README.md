@@ -45,7 +45,7 @@ Análise de Tarefas: ANTES
 
 As tarefas são atualmente realizadas basicamente da seguinte forma:
 
-•	O Fiscal imprime planilha dos itens a serem verificados (em torno de 400 itens);
+•	O Fiscal imprime planilha dos itens a serem verificados (mais de 1000 itens);
 
 •	Existem itens que são verificados em campo e itens que exigem a análise de documentos;
 
